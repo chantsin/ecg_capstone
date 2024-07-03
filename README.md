@@ -125,10 +125,10 @@ This last notebook contains our advanced modeling where we use Recurrent Neural 
 ## 4 - Project Status
 
 ### Current Progress
-This project has come to its ending phase. All notebooks are being uploaded and are available to the public subject to license restrictions. However, further updates are possible in the near future as there are more possible steps for this project. 
+\*\*\***UPDATES**\*** : I am revisiting this project again. This time my goal is to improve upon my RNN model accuracy and recall scores through hyperparameter tuning, as well as implementing a CNN model for my dataset. Previously, there have been research groups who have achieved great results using CNN models, my goal here is to get close if not exceed their results. 
 
 ### Next steps 
-As this project is ending its last phase, Convolutional Neural Networks have not been implemented yet. As such the next step would be to implement CNNs and see how they perform in contrast to RNNs and the other models. We also want to implement obtaining new ECG data through wearable devices and having the data be sent to our model. A possibility of this is through smart watches such as Apple watch, however the next steps would be figuring out how to implement the PDF format given into Python to allow our model for prediction. 
+Implementing convolutional neural networks (CNN) and hyperparameter tuning RNN model for better accuracy and recall. 
 
 <a id='setup'></a>
 ## 5 - Setup
