@@ -97,8 +97,8 @@ The dataset we are using includes two main metadata files, `ptbxl_database.csv` 
     - Simple ANN
     - Autoencoder
 4. **Advanced modeling**
-    - CNN
     - RNN
+    - CNN
 5. **Model Evalutation**
     - Choosing best model
 
@@ -119,16 +119,19 @@ For baseline modeling, we use Logistic Regression and a Simple Neural Network as
 As a detour, we experimented our works in autoencoders, utilizing the neural network architecture to see how much it can learn about ECG signals and whether it can reconstruct our input signals or not. Results indicate that it has trouble extracting important features in our data set without overfitting.
 
 5. **Recurrent Neural Networks**:
-This last notebook contains our advanced modeling where we use Recurrent Neural Networks to classify our data. Without using binning, we use the raw signals as RNNs process data in sequence allowing effect learning for time series signals like ours. 
+For advanced modeling this notebook contains our advanced modeling where we use Recurrent Neural Networks to classify our data. Without using binning, we use the raw signals as RNNs process data in sequence allowing effect learning for time series signals like ours.
+
+6. **Convolutional Neural Networks**:
+Another algorithm we test out is a convolutional neural network. We process the time series signals using 1D convolution layers instead of the typical 2D for images. 
 
 <a id='status'></a>
 ## 4 - Project Status
 
 ### Current Progress
-\*\*\***UPDATES**\*** : I am revisiting this project again. This time my goal is to improve upon my RNN model accuracy and recall scores through hyperparameter tuning, as well as implementing a CNN model for my dataset. Previously, there have been research groups who have achieved great results using CNN models, my goal here is to get close if not exceed their results. 
+\*\*\***UPDATES**\*** : By fine-tuning the RNN model to compensate for imbalanced data, I was able to increase the models performance to an accuracy of 85%. Additionally, I have started to implement a CNN model using PyTorch in a new notebook. Previously, there have been research groups who have achieved great results using CNN models. My goal here is to get close if not exceed their results and compare how this model performs compared to the RNN model. 
 
 ### Next steps 
-Implementing convolutional neural networks (CNN) and hyperparameter tuning RNN model for better accuracy and recall. 
+Fixing bugs with evaluating CNN model outputs. Using object-oriented programming for forward pass and backpropagation processes. 
 
 <a id='setup'></a>
 ## 5 - Setup
@@ -140,7 +143,7 @@ conda env create -n ecgcap -f ecgcap.yml
 ```
 
 ### Data Set Download
-The data used for this project can be found in the PhysioNet link above, although the data folder can also be downloaded from [here](https://drive.google.com/drive/folders/1Ju1yhHguvVVcAEAf3lyz-NFchx71L54s?usp=drive_link) . With the data folder beside the other directories, the code cells in the notebooks should be running without issue.  
+The data used for this project can be found in the PhysioNet link above, although the data folder can also be downloaded from [here](https://drive.google.com/drive/folders/1Ju1yhHguvVVcAEAf3lyz-NFchx71L54s?usp=drive_link). With the data folder beside the other directories, the code cells in the notebooks should be running without issue.  
 
 ## References
 <a id='1'></a>
