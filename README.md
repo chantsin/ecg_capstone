@@ -128,7 +128,7 @@ Another algorithm we test out is a convolutional neural network. We process the 
 ## 4 - Project Status
 
 ### Current Progress
-\*\*\***UPDATES**\*** : By fine-tuning the RNN model to compensate for imbalanced data, I was able to increase the models performance to an accuracy of 85%. Additionally, I have started to implement a CNN model using PyTorch in a new notebook. Previously, there have been research groups who have achieved great results using CNN models. My goal here is to get close if not exceed their results and compare how this model performs compared to the RNN model. 
+\*\*\***UPDATES**\*** : By fine-tuning the RNN model to compensate for imbalanced data, I was able to increase the models performance to an accuracy of 85%. Additionally, I have implement a CNN model using PyTorch in a new notebook. Previously, there have been research groups who have achieved great results using CNN models. My goal here is to get close if not exceed their results and compare how this model performs compared to the RNN model. 
 
 ### Next steps 
 Fixing bugs with evaluating CNN model outputs. Using object-oriented programming for forward pass and backpropagation processes. 
