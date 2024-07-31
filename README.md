@@ -131,7 +131,7 @@ Another algorithm we test out is a convolutional neural network. We process the 
 \*\*\***UPDATES**\*** : By fine-tuning the RNN model to compensate for imbalanced data, I was able to increase the models performance to an accuracy of 85%. Additionally, I have implement a CNN model using PyTorch in a new notebook. Previously, there have been research groups who have achieved great results using CNN models. My goal here is to get close if not exceed their results and compare how this model performs compared to the RNN model. 
 
 ### Next steps 
-Fixing bugs with evaluating CNN model outputs. Using object-oriented programming for forward pass and backpropagation processes. 
+Currently my CNN model sits at approximately 83% accuracy. My next goal is to fine-tune the model by adjust hyperparameters such as regularization, learning rate, batch size, and optimizations. For further goals, I have plans to test out multi-class classification using the CNN model.
 
 <a id='setup'></a>
 ## 5 - Setup
